@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "982932669670",
+    "firebase_url": "https://shin-6e6b0.firebaseio.com",
+    "project_id": "shin-6e6b0",
+    "storage_bucket": "shin-6e6b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982932669670:android:73dd02642e796938c2a727",
+        "android_client_info": {
+          "package_name": "com.example.firebaseimage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982932669670-ce7jhdf2tgbfverbc0quptgkuhl6cnpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebaseimage",
+            "certificate_hash": "da8b30262f55024170757f341524ced9e13aa503"
+          }
+        },
+        {
+          "client_id": "982932669670-b3hi8s3es47c1pl75oc15gsc8avpuc2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAx0JdvKJeS9ECCvXG_8jSmhP6SRr7lhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982932669670-b3hi8s3es47c1pl75oc15gsc8avpuc2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982932669670:android:d42b092c972f7b38c2a727",
+        "android_client_info": {
+          "package_name": "com.example.shin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982932669670-q3qkco0ii0fatfp0savsouna8hh2lre4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shin",
+            "certificate_hash": "da8b30262f55024170757f341524ced9e13aa503"
+          }
+        },
+        {
+          "client_id": "982932669670-j4k7gt6tted602rrsn6ci5cbttu270ch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shin",
+            "certificate_hash": "efb3903bc748e11c924a4ea3ad898f9b18231d2d"
+          }
+        },
+        {
+          "client_id": "982932669670-b3hi8s3es47c1pl75oc15gsc8avpuc2q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAx0JdvKJeS9ECCvXG_8jSmhP6SRr7lhw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982932669670-b3hi8s3es47c1pl75oc15gsc8avpuc2q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

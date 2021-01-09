@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginBottom="5dp"
+    app:cardElevation="15dp"
+    tools:context=".Admin.AdminMaintainProductActivity">
+
+
+
+    <EditText
+        android:id="@+id/product_name_maintain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:hint="Enter product name"
+        />
+
+    <EditText
+        android:id="@+id/product_description_maintain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/product_name_maintain"
+        android:hint="Enter product description" />
+    <EditText
+        android:id="@+id/product_price_maintain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/product_description_maintain"
+        android:hint="Enter product price" />
+
+ <!--   <Button
+        android:id="@+id/select_product_image_maintain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/product_price_maintain"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:background="@color/RedApp"
+        android:padding="5dp"
+        android:textColor="@android:color/white"
+        android:text="Choose image" />-->
+
+
+
+    <ImageView
+        android:id="@+id/product_image_maintain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/apply_changes_btn"
+        android:layout_below="@id/product_price_maintain"
+        android:layout_marginTop="16dp" />
+
+
+
+    <Button
+        android:id="@+id/apply_changes_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/delete_product_btn"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:text="Apply changes" />
+    <Button
+        android:id="@+id/delete_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:text="Delete product"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>
